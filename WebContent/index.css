@@ -1,0 +1,103 @@
+header {
+	background-color: black;
+	color: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 60px;
+	text-align: center;
+}
+
+#posControl {
+	position: absolute;
+	left: 10px;
+}
+
+.labelStyle {
+	font-size: 124%;
+	font-weight: bold;
+}
+
+li {
+	list-style: none;
+	float: left;
+}
+
+#instruction {
+	position: absolute;
+	right: 100px;
+	color: #ffa500;
+}
+
+#clock {
+	float: right;
+	padding-right: 10px;
+}
+
+#container {
+	background-color: #e5e5e5;
+	position: fixed;
+	top: 60px;
+	left: 0;
+	right: 0;
+	height: 400px;
+	overflow: auto;
+}
+
+#floatPanel {
+	background-color: #bfbfbf;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #7f7f7f;
+	width: 300px;
+	height: 200px;
+}
+
+#dragText {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	color: white;
+}
+
+.posCenter {
+	/*  	top: 50%;
+	left: 50%;
+	margin-top: -102px;
+	margin-left: -152px; 
+	position: relative; */
+	position: fixed;
+	margin: auto;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+.posLR {
+	/* 	position: relative;
+ 	top: 100%;
+	left: 100%;
+	margin-left: -304px;
+	margin-top: -264px; */
+	position: fixed;
+	margin: auto;
+	bottom: 0;
+	right: 0;
+	margin-bottom: 60px;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	clear: both;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 60px;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
